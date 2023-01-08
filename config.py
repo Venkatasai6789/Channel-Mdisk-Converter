@@ -15,7 +15,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "5851998667:AAE2TEi-SD0WktmNcKB1djKvwFAH
 DROPLINK_API = os.environ.get("DROPLINK_API")
 MDISK_API = os.environ.get("MDISK_API", "Klx1RAkFonSpkurA9eS9")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split("1559728293")) if os.environ.get("ADMINS") else []
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Mdisk Link Converter")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "MDiskLinkConverter")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://MDiskLinkConverter:Mdisk5555@mdisklinkconveter.ggap9wd.mongodb.net/?retryWrites=true&w=majority")
 WEBSITE = os.environ.get('WEBSITE')
 

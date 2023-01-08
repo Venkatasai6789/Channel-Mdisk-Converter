@@ -9,14 +9,14 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "12124605"))
-API_HASH = os.environ.get("API_HASH", "5cf3577d85fd02286535ec2296934287")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5574279873:AAHb22nEOdC2dbwY_9GpU838frtUAvyFoQI")
+API_ID = int(os.environ.get("API_ID", "24330005"))
+API_HASH = os.environ.get("API_HASH", "f7b37cb26bd04ab9e43f57ac269288e3")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5851998667:AAE2TEi-SD0WktmNcKB1djKvwFAHrruQ0pY")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
-ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
+MDISK_API = os.environ.get("MDISK_API", "Klx1RAkFonSpkurA9eS9")
+ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split("1559728293")) if os.environ.get("ADMINS") else []
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Mdisk Link Converter")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://mdisk:mdisk1234@cluster0.dluyu5v.mongodb.net/?retryWrites=true&w=majority")
 WEBSITE = os.environ.get('WEBSITE')
 
 #  Optionnal variables
